@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +28,9 @@
     "gulp-uglify": "^3.0.2"
   },
   "dependencies": {
+    "dart-sass": "^1.25.0",
+    "del": "^6.1.1",
+    "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-connect": "^5.7.0",
     "gulp-eslint": "^6.0.0",
